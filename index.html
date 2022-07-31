@@ -18,7 +18,11 @@
       content=" https://xulimeng2022.github.io/gerenwangzhan/"
     />
     <meta name="og:description" content="徐力萌的个人网站。" />
+    <link rel="icon" href="favicon.ico" />
     <style>
+      /* * {
+        border: 1px solid black;
+      } */
       body {
         margin: 0;
         height: 100vh;
@@ -40,9 +44,53 @@
       .column {
         flex-direction: column;
       }
+      .juZhong {
+        align-items: center;
+        justify-content: center;
+      }
+      .ztysjb {
+        background: linear-gradient(45deg, blue, red);
+        -webkit-background-clip: text;
+        color: transparent;
+      }
+      .mgt8 {
+        margin-top: 8px;
+      }
     </style>
   </head>
   <body>
-    aaaaaaaa
+    <div>
+      <!-- 头部栏 -->
+      <div
+        style="height: 10vh; background-color: rgb(201, 201, 201)"
+        class="yinying flex juZhong"
+      >
+        <img src="logo.png" alt="logo" />
+      </div>
+      <!-- 内容区 -->
+      <div style="min-height: 80vh" class="yinying flex column juZhong">
+        <div class="ztysjb mgt8">Hello,我是徐力萌。</div>
+        <div class="ztysjb mgt8">这里是我的个人网站，</div>
+        <div class="ztysjb mgt8">
+          自制网站白云网<a
+            href="https://hello-8gi51fgya71d343c-1313086939.tcloudbaseapp.com"
+            >戳这</a
+          >
+        </div>
+        <div class="ztysjb mgt8"></div>
+      </div>
+      <!-- 底部栏 -->
+      <div
+        style="
+          height: 10vh;
+          line-height: 0;
+          background-color: rgb(201, 201, 201);
+        "
+        class="yinying flex column juZhong"
+      >
+        <p>网站所有：徐力萌</p>
+        <p>⭐ 2022 ⭐</p>
+      </div>
+    </div>
   </body>
 </html>
